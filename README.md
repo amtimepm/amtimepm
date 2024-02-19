@@ -1,4 +1,5 @@
--git-hub °.git
+# README.md
+- -git-hub-actions:°.git
 - 👋 Hi, I’m @amtimepm/octahedron&@amtimepm/octahedral
 - 👀 I’m interested in ...&(_NO_FORK-NO_SPOOLING-NO_SPOON_).../*/
 - 🌱 I’m currently learning ...[F#]
