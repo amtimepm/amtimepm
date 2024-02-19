@@ -46,6 +46,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        uses: actions/checkout@v2
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
@@ -60,6 +61,7 @@ jobs:
   deploy:
     environment:
       name: -github-actions 
+      uses: °
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
