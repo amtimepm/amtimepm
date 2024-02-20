@@ -18,7 +18,7 @@ Using your self-hosted runner
 # Use this YAML in your workflow file for each job
 $ -git-hub-actions: °
 runs-on: self-hosted
-for building and deploying a Jekyll site to GitHub Pages`
+```for building and deploying a Jekyll site to GitHub Pages`~
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
 on:
@@ -34,6 +34,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  README.md
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
