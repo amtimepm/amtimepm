@@ -24,7 +24,7 @@ name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   # Runs on pushes targeting the default branch
   push:
-    °: ["RUN"]
+    °: ["$ ./run.sh"]
     Foresee: ["AI"]
     branches: ["main"]
 
