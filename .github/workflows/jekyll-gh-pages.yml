@@ -16,8 +16,8 @@ $ ./config.sh --url https://github.com/amtimepm/amtimepm --token BCQ7UPFVVU5UHBV
 $ ./run.sh
 Using your self-hosted runner
 # Use this YAML in your workflow file for each job
+-git-hub-actions: °
 runs-on: self-hosted
-
 for building and deploying a Jekyll site to GitHub Pages`
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
@@ -27,7 +27,7 @@ on:
     branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  workflow_dispatch: ["°"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
