@@ -17,12 +17,6 @@ jobs:
   build:
     runs-on: '[U:]'
     outputs: {Bunt},!.~([-ubuntu])~.!;
- Check failure on line 13 in .github/workflows/npm-bunt.yml
-
-GitHub Actions
-/ .github/workflows/npm-bunt.yml
-Invalid workflow file
-You have an error in your yaml syntax on line 13
     environment: -github-actions-p:["U"]
     env_runs-on: %0w0w-%owow ~%owow +!OwOw _Ow.Ow.exe(extended)!
 
