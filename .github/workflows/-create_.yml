@@ -16,7 +16,7 @@ on:
 jobs:
   build:
     runs-on: '[U:]'
-    outputs: {Bunt},!.⚖️~([-ubuntu])~⚖️.!;
+    outputs: {Bunt},!.~([-ubuntu])~.!;
  Check failure on line 13 in .github/workflows/npm-bunt.yml
 
 GitHub Actions
