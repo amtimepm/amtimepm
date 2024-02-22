@@ -8,7 +8,7 @@ name: -git-hub-actions.
 
 on:
   workflow_dispatch: [°]
-  merge_group: [_ && -]
+  merge_group: [_ ; -]
   pull_: [/]
 
 permissions:
