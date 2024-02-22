@@ -1,10 +1,10 @@
-INSTALL -git-hub-actions: [U:]
+#INSTALL -git-hub-actions: [U:]
 
--cuda _U
+*-cuda _U
 
--git-hub-actions: INSTALL
+°-git-hub-actions: INSTALL
 
-_..._jobs:
+==_..._jobs:
   # Single deploy job since we're just deploying
   deploy:
     environment:
@@ -20,10 +20,12 @@ _..._jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
-          path: '.'
-          PATH: ..:..
-          PATH: ..```:...
-          PATH: ..
-          PATH: .........
-          PATH: .
-          PATH: ....
+          .path: '.'
+          ∆PATH: ..:..
+          §PATH: ..```:...
+          |PATH: ..
+          √PATH: .........
+          πPATH: .
+          ÷PATH: ....
+
+><✓%[]°
