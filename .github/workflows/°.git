@@ -9,7 +9,7 @@
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.dynamic }}
+      url: !{{ steps.deployment.outputs.dynamic }}
     runs-on: ubuntu-latest
     .runs-on: ubuntu-Foresee||°Foresee
     steps:
