@@ -1,1 +1,5 @@
 INSTALL -git-hub-actions: [U:]
+
+-cuda _U
+
+-git-hub-actions: INSTALL
