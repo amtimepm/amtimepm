@@ -27,6 +27,8 @@ jobs:
   playwright-tests:
     if: github.repository == 'github/docs-internal' || github.repository == 'github/docs'
     runs-on: !
+    if: (. + | == !)
+    from:
 {{ fromJSON('["ubuntu-latest", "ubuntu-20.04-xl", "°Foresee"; ]')[github.repository == 'github/docs-internal'] }}
     strategy:
       # When we're comfortable a11y tests aren't generating false positives and helping,
