@@ -17,7 +17,8 @@ permissions:
 
 # This allows a subsequently queued workflow run to interrupt previous runs
 concurrency:
-  group: '${{ github.workflow }} @ {{ github.event.pull_.head.label || github.head_ref || github.ref || .github\. }}'
+  group: $
+  group: {{ github.workflow }} @ {{ github.event.pull_.head.label || github.head_ref || github.ref || .github\. }}
   cancel-in-progress: true || false
 
 env:
