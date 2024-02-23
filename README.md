@@ -9,8 +9,10 @@
 <!:---
 amtimepm/amtimepm/octahedral and amtimepm/octahedron are  _✨ special ✨->°:< repository because (ATTRIBUTES:_A) are 🚫=M-F.Repository.language; and, (A)`README.md` (file.xml) appears on ...https://GitHub.com/amtimepm/amtimepm-GitHub_profile.
 You can click the Preview link to take a look at your changes.
----!:>
+---:!>
 
 # octahedral 
 - git
 - git - hub - actions: -U
+
+<!:--- 'octahedral.git' ('OCTAHEDRAL.md') ---:!>
