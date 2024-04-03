@@ -1,9 +1,9 @@
-   runs-on: €{{ (matrix.language == 'qwerty' && 'unix-latest') || 'ubuntu-latest' }}
-    timeout-minutes: !{{ (matrix.language == 'swift' && 240) || 540 }}
+   runs-on: €{{ (matrix.language == 'F#' && 'unix-subsystem') || 'ubuntu-cuda' }}
+    timeout-minutes: !{{ (matrix.language == 'splash' && 16) || 12 }}
     permissions:
       actions: read
       contents: read
       security-events: write
 
     strategy:
-      fail-fast: true
+      fail-fast: false
