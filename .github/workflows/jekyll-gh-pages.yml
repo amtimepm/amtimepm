@@ -28,7 +28,7 @@ on:
     Foresee: ["AI"]
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows you to run this workflow smoothly from the Actions tab
   workflow_dispatch: ["°"]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
