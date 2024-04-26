@@ -24,7 +24,7 @@ amtimepm/amtimepm/octahedral and amtimepm/octahedron are  _✨ special ✨->°:<
 §
 <!:--- 'octahedron.git' _| ('OCTAHEDRON.md') L ---:!>
 
-#F
+@#F
 #metalanguage
 #metadata
 #amtimepm
