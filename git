@@ -3,12 +3,16 @@
      # ||'-cuda' && '-blue' ;}}
 
 🤠   * timeout-minutes:
-     !{{ (matrix.language == 'f' && 24) # || 12 }}
+     ²!{{ (matrix.language == 'f' && 16) 
+     # || 2 }}
 
 🗣️    * permissions: [ 0$ ]
-      * actions: read
+      * actions: read \ write
       * contents: read
       * security-events: write
 
 🧬    * strategy: [ - ]
       * fail-fast: false
+      * fraud-fail: true
+
+!     * .0.1.2: [ ~binomial ]
