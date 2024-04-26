@@ -1,9 +1,9 @@
 😋   * runs-on: 
-     €{{ (!matrix.language == '#F' && '-sub-system') 
+     ³{{ (!matrix.language == '#F' && '-sub-system') 
      # ||'-cuda' && '-blue' ;}}
 
 🤠   * timeout-minutes:
-     !{{ (matrix.language == 'f' && 16) # || 12 }}
+     !{{ (matrix.language == 'f' && 24) # || 12 }}
 
 🗣️    * permissions: [ 0$ ]
       * actions: read
