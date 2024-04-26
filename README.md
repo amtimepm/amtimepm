@@ -23,3 +23,10 @@ amtimepm/amtimepm/octahedral and amtimepm/octahedron are  _✨ special ✨->°:<
 -git-hub-actions _IN
 §
 <!:--- 'octahedron.git' _| ('OCTAHEDRON.md') L ---:!>
+
+# fibocanni or Fibonacci or #F
+#metalanguage
+#metadata
+#amtimepm
+...
+[/draw]
